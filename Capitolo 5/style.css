@@ -1,0 +1,67 @@
+h1, h2, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    margin-top: 10px;
+    width: 1500px;
+    margin: auto;
+    
+}
+
+.quadrato::before {
+    content: "\2752";
+  }
+
+.freccia::before {
+    content: "\21A6";
+}
+
+html {
+    background-image: url(immagini/background.jpg);
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: lime;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: lime;
+}
+
+h2, p {
+    color: white;
+}
+
+#caricaMedia {
+    border: 15px solid rgb(207, 207, 52);
+    border-radius: 5px;
+    width: 30%;
+}
+
+#caricaAlta {
+    border: 15px solid green;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#caricaBassa {
+    border: 15px solid rgb(167, 54, 54);
+    border-radius: 5px;
+    width: 15%;
+}
+
+#fullSection {
+    background-color: hsla(0, 0%, 15%, 0.5);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 100px;
+}
